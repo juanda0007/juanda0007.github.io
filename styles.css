@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.modules {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.module {
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#basico { background-color: #ff6b6b; }
+#tienda { background-color: #cc5de8; }
+#diseno { background-color: #ffa94d; }
+#seo { background-color: #a9e34b; }
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#servicios-page {
+    display: none;
+}
